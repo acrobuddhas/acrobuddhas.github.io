@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="top-photo">
+      <div class="tagline">
+      <h1 class="tag"> Come fly with us</h1>
+      <button><a href="#contact"> Get a class</a></button>
+      </div>
+    </div>
+    {% include header.html %}
+    <section id="middle-photo">
+      <div class="text-box">
+      <h2> What is an "Acro Buddha?"</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada nisl ac diam pulvinar vestibulum. Donec eu accumsan quam. Cras cursus tempor ante at tincidunt. Maecenas pellentesque eu odio in cursus. Integer porta purus ac erat feugiat vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras rutrum ut elit et sagittis. Curabitur tellus libero, vulputate sed suscipit ut, placerat at nulla. Proin sed blandit ex.
+      </p>
+      <p>
+        Pellentesque fermentum elementum erat a iaculis. Sed ac semper neque, eu aliquet lacus. Nunc non dictum neque, ac ullamcorper sem. Fusce rutrum nulla eu metus malesuada mattis. Fusce non tincidunt massa. Suspendisse a mattis est, et scelerisque libero. Vestibulum ac leo non magna auctor tempor. Duis nisi lacus, elementum sit amet arcu nec, viverra consectetur orci.
+      </p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-form">
+        <div id="wufoo-mvwhad0165dbam">
+          Fill out my <a href="https://taramahoney.wufoo.com/forms/mvwhad0165dbam">online form</a>.
+        </div>
+        <script type="text/javascript">var mvwhad0165dbam;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'taramahoney',
+        'formHash':'mvwhad0165dbam',
+        'autoResize':true,
+        'height':'535',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'show',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { mvwhad0165dbam = new WufooForm();mvwhad0165dbam.initialize(options);mvwhad0165dbam.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+        </div>
+      <div class="social-box">
+        <h2> Follow our journey: </h2>
+        <div class="social-buttons">
+          <a href=""><img src="/assets/facebook.png" alt="Facebook"></a>
+          <a href=""><img src="/assets/twitter.png" alt="Twitter"> </a>
+          <a href=""><img src="/assets/instagram.png" alt="Instagram"> </a>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+  </body>
+</html>
