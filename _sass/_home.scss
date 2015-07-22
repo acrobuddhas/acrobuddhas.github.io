@@ -1,5 +1,5 @@
 #top-photo {
-    background: url(/assets/9229.jpg) center center no-repeat; 
+    background: url(/assets/9229.jpg) center center fixed no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -22,24 +22,27 @@ h1{
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px grey;
-    font-size: 1.9em;
+    font-size: 1.5em;
+    font-family: 'Megrim', cursive;
 
     @include media($medium-screen-up){
-    font-size: 4em;
+    font-size: 6em;
     }
 }
 
 button{
-    text-transform: uppercase;
+    font-family: 'Cookie', cursive;
     font-size: 1em;
     padding: 2% 8%;
+    text-transform: lowercase;
     @include media($medium-screen-up){
-    font-size: 1.5em;
+    font-size: 3em;
     }
 }
 
 button a {
     color: white;
+    text-transform: lowercase;
     
 &:active,
   &:focus,
@@ -50,14 +53,14 @@ button a {
 
 
 #middle-photo{
-    background: url(/assets/9520.jpg) center center no-repeat; 
+    background: url(/assets/9520.jpg) center center fixed no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    
    @include media($medium-screen-up){
-   padding-top: 10%;
+   padding-top: 20%;
    padding-bottom: 10%;    
     }
 } 
@@ -76,9 +79,10 @@ button a {
 }
 
 .contact-form{
-    padding: 7%;
-    @include media($medium-screen-up){
+    padding: 6%;
+    @include media($large-screen-up){
         float: left;
+        width: 50%;
     }
 }
 
@@ -87,9 +91,10 @@ button a {
     color: white;
     padding: 7%;
 
-    @include media($medium-screen-up){
+    @include media($large-screen-up){
     float: right;
-    padding: 23% 5%;
+    padding:9% 5% 35% 5%;
+    width: 50%;
     }
 }
 

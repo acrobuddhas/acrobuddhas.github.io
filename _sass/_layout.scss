@@ -53,6 +53,11 @@ nav img {
   right: 5px;
   padding-right: 25px;
   line-height: 3;
+
+  @include media($medium-screen-up){
+    z-index: 200;
+  }
+
 }
 
 
@@ -75,25 +80,28 @@ nav img {
   padding-left:10px;
   background-color: white;
   transition: left 0.3s $ease-out-sine;
-  font-size: 12px;
+  font-size: 1em;
 
   @include media($medium-screen-up){
-    font-size: 1.2em;
+    font-size: 1.5em;
     right: 0;
     display: block;
     position: static;
     text-align: right;
     background-color: $blue;
     width: 100%;
-    padding-top: 1em;
+    padding-top: 0.5em;
   }
 
   &.is-open {
     right: 0;
     background-color: rgba(241, 248, 255, 0.78);
     padding-top: 75px;
+    @include media($medium-screen-up){
+      padding-top: 0.5em;
+      background-color: $blue;
+    }
   }
-  
 }
 
 .link a {
@@ -107,6 +115,7 @@ nav img {
 }
 
 nav li {
+    font-family: 'Megrim', cursive;
     display: block;
     color: $blue;
     text-transform: uppercase;
@@ -115,6 +124,7 @@ nav li {
       display: inline;
       padding: 0% 2%;
       color: white;
+
   }
 }
 
