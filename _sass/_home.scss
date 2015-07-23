@@ -6,6 +6,12 @@
    background-size: cover;
    margin-top: $nav-height;
   @include media($medium-screen-up){
+    background: url(/assets/9229.jpg) center center fixed no-repeat;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   margin-top: $nav-height;
     margin-top: 0;
    padding: 24% 10% 15% 10%;
     }
@@ -54,13 +60,18 @@ button a {
 
 
 #middle-photo{
-    background: url(/assets/9520.jpg) center center fixed no-repeat; 
+    background: url(/assets/9520.jpg) center center no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    
    @include media($medium-screen-up){
+     background: url(/assets/9520.jpg) center center fixed no-repeat; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
    padding-top: 20%;
    padding-bottom: 10%;    
     }
