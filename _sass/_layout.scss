@@ -51,11 +51,11 @@ nav img {
 
 .link {
   right: 5px;
-  padding-right: 25px;
   line-height: 3;
 
   @include media($medium-screen-up){
     z-index: 200;
+    padding-right: 25px;
   }
 
 }
