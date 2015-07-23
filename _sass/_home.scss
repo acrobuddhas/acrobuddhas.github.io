@@ -1,10 +1,9 @@
 #top-photo {
-    background: url(/assets/9229.jpg) center center fixed no-repeat; 
+    background: url(/assets/9229.jpg) center center no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   padding: 30% 10% 20% 10%;
    margin-top: $nav-height;
   @include media($medium-screen-up){
     margin-top: 0;
@@ -15,10 +14,12 @@
 .tagline{
     vertical-align: center;
     margin: 0 auto;
-    text-align: center;     
+    text-align: center;  
+    padding: 30% 10% 20% 10%;   
 }
 
 h1{
+
     text-transform: uppercase;
     color: white;
     text-shadow: 1px 1px grey;
